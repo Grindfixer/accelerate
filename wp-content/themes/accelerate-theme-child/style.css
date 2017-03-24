@@ -25,15 +25,23 @@
 
 #masthead nav ul li{
     float: left;
-    margin:  0 10px;
+    margin:0 12px;
 }
+/*ul#menu-top-nav.nav-menu li{ background-color: red;}*/
+#primary-navigation.site-navigation.primary-navigation{ margin-top: -24px;}
+
+
 /* added styling to accomodate design */
 .site-content, .site-footer, .header-main{width: 1024px;}
 /*Featured Work Section on homepage */
 
-.site-content h3{text-align: center;}
-.homepage-featured-work{list-style: none; display:block;margin: 0;padding:0;}
-.individual-featured-work{display: inline-block; padding: 12px;}
+#featured-work-title{text-align: center;}
+.homepage-featured-work{list-style: none; display:block;margin: auto;padding:0;}
+.individual-featured-work{display: inline-block; padding: 18px;}
+
+
+li.individual-featured-work h3{position: relative;text-align: center;}
+
 
 /* Blog post on homepage */
 .blog-post{
@@ -78,6 +86,7 @@ div.case-study-images{
 div.case-study-images img{
     margin-bottom:50px;
     border: 1px solid #ddd;
+    max-width: 516px;
 }
 
 /*case studies archive */
