@@ -1,0 +1,11 @@
+64.202.160.161
+
+http://www.furnitureandthings.org/
+
+45ac9d
+
+    font-size: 24px;
+    font-family: 'Monteserrat';
+    font-weight: bold;
+	
+	Ec4izoBX
