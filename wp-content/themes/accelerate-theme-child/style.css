@@ -45,7 +45,11 @@ li.individual-featured-work h3{position: relative;text-align: center;}
 
 /* Blog post on homepage */
 .blog-post{
-    width: 50%;
+    width: 40%;
+    display: inline-block;
+        	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 100;
 }
 
 .blog-post h4 {
@@ -56,8 +60,8 @@ li.individual-featured-work h3{position: relative;text-align: center;}
 }
 
 .blog-post h4 {
-    font-size: 24px;
-    font-family: 'Monteserrat';
+    font-size: 12px;
+    font-family: inherit;
     font-weight: bold;
 }
 
@@ -89,6 +93,61 @@ div.case-study-images img{
     max-width: 516px;
 }
 
+/* Contact Form*/
+.contact-form{
+    border:none;
+    max-width: 654px;
+    margin: auto;
+}
+
+.nf-field-label{
+    font-weight: normal;
+    font-family: 'Lato';
+    
+}
+
+.contact-form p{
+    margin-bottom: 0;
+    padding: 0 9px;
+}
+
+div#nf-field-1-wrap.field-wrap.textbox-wrap{              
+ width: 305px;
+}
+
+div#nf-field-2-wrap.field-wrap.email-wrap{
+  width: 305px;  
+}
+
+div#nf-field-1-container.nf-field-container.textbox-container{ 
+ display: inline-block; 
+}
+
+div#nf-field-2-container.nf-field-container.email-container{
+  display: inline-block; 
+  float:right;   
+} 
+
+#nf-form-1-cont.nf-form-cont{
+    max-height: 540px;
+    max-width: 630px;
+    border: none;
+    margin-top: 0;
+    padding: 9px;
+}
+
+#nf-field-4.ninja-forms-field.nf-element{
+    color: white;
+    background-color: #45ac9d;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    height: 51px;
+    width: 206px;
+    float: right;
+}
+
 /*case studies archive */
 
 
@@ -99,3 +158,206 @@ div.case-study-images img{
 }
 
 .clearfix{clear: both;}
+
+/* About Us page */
+
+section.home-page.about-page{
+    margin: 0 0 40px;
+}
+
+div.homepage-hero  {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: center;
+    margin: 220px 0 16px;
+}
+
+div.homepage-hero span.about-green{
+    color: #45ac9d;
+}  
+.about-content{
+    max-width: 964px;
+    margin: auto;  
+}
+.about-lead {
+    width:550px;
+    margin: auto;
+}
+
+.center-content{
+    text-align: center;
+}
+
+div.about-services{   
+    margin: 24px 0;  
+}
+
+div.about-services h2{
+    font-weight: 100;
+}
+
+div.service-image-left{
+    display: inline-block;
+    float: left;
+    margin: 30px 24px 30px 0;   
+}
+
+div.service-image-right{
+    display: inline-block;
+    float: right;
+    margin: 30px 0 30px 24px; 
+}
+
+.service-left{
+    display: inline-block;
+    margin:30px 0 30px -240px;
+    width: 70%; 
+    
+}
+
+.service-right{
+    display: inline-block;
+    width: 70%; 
+    margin: 30px 0 0px 0;
+}
+
+#about-cta{
+    border-top: 1px dotted #e3e1e1;
+    margin-top: 64px;
+    height: 143px;
+}
+
+#about-cta h2{
+    margin:74px 0 74px 184px;
+    text-align: right;
+    float: left;
+}
+
+.about-button.button.new-cta{
+    float:right;
+    width: 180px;
+    padding: 10px 50px;
+    margin-top: 64px;
+    margin-right: 48px;
+}
+
+/* 404 page */
+
+.error-page.page-content{
+    border: 2px solid #1F2002;
+    border-radius: 8px;
+    background-image: url(http://localhost:1234/accelerate/wp-content/uploads/2017/03/The-Jerk-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width:1600px;
+    margin:36px auto 0;
+}
+
+div.error-page.page-content h2{
+ color: #fff;
+font-size: 1.5em;
+font-weight: bold;
+font-family: Helvetica;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    
+    margin: 45px 50px 25px 100px;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+
+div.error-search #searchsubmit{
+    font-weight: bold;
+    width: 200px;
+}
+
+div.error-search{
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+/* Front Page Twitter Sidebar Widget */
+
+#secondary.widget-area{
+    width: 45%;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets h4{
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: bold;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets{
+    padding: 0;
+} 
+
+aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets ul{
+    list-style-type: none;
+    font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 100;
+}
+
+div.twitter-follow a{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d !important;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+/* FOOTER */
+ul#menu-social-media-nav{
+    list-style: none;
+}
+
+#menu-social-media-nav li{
+   display: inline-block; 
+    padding: 18px;
+}
+
+/* Sidebar Widgets */
+
+aside#mc4wp_form_widget-2.widget.widget_mc4wp_form_widget h2{
+   font-size: 16px;
+   line-height: inherit;
+   margin: 24px 0 0;
+}
+
+aside#mc4wp_form_widget-2.widget.widget_mc4wp_form_widget p{
+    margin: 5px 0;
+}
+
+aside#mc4wp_form_widget-2.widget.widget_mc4wp_form_widget input[type=submit]{
+    background-color: #45ac9d;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    margin: 8px 0;
+    width: 212px;
+    
+}
+
+input#searchsubmit{
+    background-color: #45ac9d;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    margin: 8px 0;
+    width: 212px;
+}
